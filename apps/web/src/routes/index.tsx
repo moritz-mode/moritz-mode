@@ -1,3 +1,4 @@
+import { buttonVariants } from "@moritzmode/ui/components/button";
 import { createFileRoute } from "@tanstack/react-router";
 
 const LINKS = [
@@ -5,6 +6,8 @@ const LINKS = [
   { href: "https://www.linkedin.com/in/mauruschatm/", label: "LinkedIn" },
   { href: "https://9010.berlin", label: "90/10" },
 ] as const;
+
+const linkClassName = buttonVariants({ size: "lg", variant: "ghost" });
 
 const HomeComponent = () => (
   <main className="flex min-h-svh items-center justify-center px-6">
@@ -19,16 +22,16 @@ const HomeComponent = () => (
         CTO &amp; Co-Founder at 90/10, Berlin. Building construction tech with
         TypeScript.
       </p>
-      <nav aria-label="Links" className="flex gap-6 font-mono text-sm">
+      <nav aria-label="Links" className="-ml-2 flex flex-wrap gap-1">
         {LINKS.map(({ href, label }) => (
           <a
-            className="decoration-muted-foreground/50 hover:decoration-foreground underline underline-offset-4 transition-colors"
+            className={linkClassName}
             href={href}
             key={href}
             rel="noreferrer"
             target="_blank"
           >
-            {label} ↗
+            {label}
           </a>
         ))}
       </nav>
