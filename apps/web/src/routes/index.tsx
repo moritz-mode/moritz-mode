@@ -15,8 +15,8 @@ const HomeComponent = () => (
         Moritz Mauruschat
       </h1>
       <p className="text-muted-foreground mb-10 text-lg leading-relaxed">
-        CTO &amp; Co-Founder at 90/10, Berlin. Building products with
-        TypeScript, mostly around auth, developer tooling, and documentation.
+        CTO &amp; Co-Founder at 90/10, Berlin. Building construction tech with
+        TypeScript.
       </p>
       <nav aria-label="Links" className="flex gap-6 font-mono text-sm">
         {LINKS.map(({ href, label }) => (

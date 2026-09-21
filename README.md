@@ -2,7 +2,7 @@
 
 CTO & Co-Founder at [90/10](https://9010.berlin), based in Berlin.
 
-I build products with TypeScript, mostly around auth, developer tooling, and documentation.
+I build construction tech at [90/10](https://9010.berlin) with TypeScript.
 
 ## What I'm working on
 

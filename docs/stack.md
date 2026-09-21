@@ -73,7 +73,7 @@ The web app is deployed as a Cloudflare Worker with static assets. `@cloudflare/
 - Deploy from your machine: `bun run deploy` (needs `wrangler login` once)
 - Cloudflare Workers Builds (Git integration): build command `bun run build`, deploy command `bun run deploy`, root directory left at the repo root.
 
-The Worker is named `moritzmode` (see `apps/web/wrangler.jsonc`). Attach the custom domain in the Cloudflare dashboard under Workers → moritzmode → Settings → Domains & Routes.
+The Worker is named `moritz-mode` (see `apps/web/wrangler.jsonc`). Attach the custom domain in the Cloudflare dashboard under Workers → moritz-mode → Settings → Domains & Routes.
 
 ## Git Hooks and Formatting
 

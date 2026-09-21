@@ -12,7 +12,7 @@ export type RouterAppContext = Record<string, unknown>;
 
 const TITLE = "Moritz Mauruschat";
 const DESCRIPTION =
-  "CTO & Co-Founder at 90/10, Berlin. Building products with TypeScript.";
+  "CTO & Co-Founder at 90/10, Berlin. Building construction tech with TypeScript.";
 
 const RootDocument = () => (
   <html className="dark" lang="en">
