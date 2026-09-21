@@ -1,10 +1,7 @@
-# Hi, I'm Moritz 👋
+### Hi, I'm Moritz 👋
 
 CTO & Co-Founder at [90/10](https://9010.berlin), Berlin. Building construction tech with TypeScript.
 
-## Find me
+**Find me**
 
-- [moritzmode.com](https://moritzmode.com)
-- [LinkedIn](https://www.linkedin.com/in/mauruschatm/)
-- [X](https://x.com/moritzmode)
-- [90/10](https://9010.berlin) · [@neunzig-zehn](https://github.com/neunzig-zehn) on GitHub
+[moritzmode.com](https://moritzmode.com) · [LinkedIn](https://www.linkedin.com/in/mauruschatm/) · [X](https://x.com/moritzmode) · [90/10](https://9010.berlin) · [@neunzig-zehn](https://github.com/neunzig-zehn)
