@@ -12,6 +12,7 @@ I build products with TypeScript, mostly around auth, developer tooling, and doc
 
 ## Find me
 
+- 🏠 [moritzmode.com](https://moritzmode.com)
 - 🌐 [9010.berlin](https://9010.berlin)
 - 🏢 [@neunzig-zehn](https://github.com/neunzig-zehn)
 
