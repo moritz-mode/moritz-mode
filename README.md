@@ -15,4 +15,4 @@ I build products with TypeScript, mostly around auth, developer tooling, and doc
 - 🌐 [9010.berlin](https://9010.berlin)
 - 🏢 [@neunzig-zehn](https://github.com/neunzig-zehn)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=MauruschatM&show_icons=true&hide_border=true)
+![Contribution graph](https://ghchart.rshah.org/MauruschatM)
