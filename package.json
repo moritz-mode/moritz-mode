@@ -31,11 +31,11 @@
     "staged": "vp staged",
     "hooks:setup": "vp config",
     "dev:web": "vp run --filter web dev:bare",
-    "deploy": "vp run --filter @moritzmode/infra deploy",
-    "destroy": "vp run --filter @moritzmode/infra destroy",
+    "deploy": "vp run --filter web deploy",
     "env:generate": "varlock codegen --path ./apps/web/",
     "postinstall": "varlock codegen --path ./apps/web/",
-    "fix": "ultracite fix"
+    "fix": "ultracite fix",
+    "deploy:check": "vp run --filter web deploy:check"
   },
   "dependencies": {
     "zod": "catalog:"
