@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 const LINKS = [
   { href: "https://github.com/moritz-mode", label: "GitHub" },
+  { href: "https://www.linkedin.com/in/mauruschatm/", label: "LinkedIn" },
   { href: "https://9010.berlin", label: "90/10" },
 ] as const;
 

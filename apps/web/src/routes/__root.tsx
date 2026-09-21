@@ -11,6 +11,30 @@ import appCss from "../index.css?url";
 export type RouterAppContext = Record<string, unknown>;
 
 const TITLE = "Moritz Mauruschat";
+const PERSON_JSON_LD = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Moritz Mauruschat",
+  givenName: "Moritz",
+  familyName: "Mauruschat",
+  jobTitle: "CTO & Co-Founder",
+  url: "https://moritzmode.com",
+  worksFor: {
+    "@type": "Organization",
+    name: "90/10",
+    url: "https://9010.berlin",
+  },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Berlin",
+    addressCountry: "DE",
+  },
+  sameAs: [
+    "https://github.com/moritz-mode",
+    "https://www.linkedin.com/in/mauruschatm/",
+  ],
+});
+
 const DESCRIPTION =
   "CTO & Co-Founder at 90/10, Berlin. Building construction tech with TypeScript.";
 
@@ -40,6 +64,7 @@ export const Route = createRootRouteWithContext<RouterAppContext>()({
       { property: "og:type", content: "website" },
     ],
     links: [{ rel: "stylesheet", href: appCss }],
+    scripts: [{ type: "application/ld+json", children: PERSON_JSON_LD }],
   }),
   component: RootDocument,
 });
