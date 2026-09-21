@@ -4,4 +4,4 @@ CTO & Co-Founder at [90/10](https://9010.berlin), Berlin. Building construction 
 
 **Find me**
 
-[moritzmode.com](https://moritzmode.com) · [LinkedIn](https://www.linkedin.com/in/mauruschatm/) · [X](https://x.com/moritzmode) · [90/10](https://9010.berlin) · [@neunzig-zehn](https://github.com/neunzig-zehn)
+[moritzmode.com](https://moritzmode.com) · [LinkedIn](https://www.linkedin.com/in/mauruschatm/) · [X](https://x.com/moritzmode) · [@neunzig-zehn](https://github.com/neunzig-zehn)
