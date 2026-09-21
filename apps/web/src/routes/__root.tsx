@@ -32,6 +32,7 @@ const PERSON_JSON_LD = JSON.stringify({
   sameAs: [
     "https://github.com/moritz-mode",
     "https://www.linkedin.com/in/mauruschatm/",
+    "https://x.com/moritzmode",
   ],
 });
 
