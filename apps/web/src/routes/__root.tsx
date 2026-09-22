@@ -26,10 +26,10 @@ const PERSON_JSON_LD = JSON.stringify({
     name: "90/10",
     url: "https://9010.berlin",
   },
-  alumniOf: {
-    "@type": "CollegeOrUniversity",
-    name: "Hasso Plattner Institute",
-  },
+  alumniOf: [
+    { "@type": "CollegeOrUniversity", name: "Technische Universität Berlin" },
+    { "@type": "CollegeOrUniversity", name: "Hasso Plattner Institute" },
+  ],
   address: {
     "@type": "PostalAddress",
     addressLocality: "Berlin",
@@ -43,7 +43,7 @@ const PERSON_JSON_LD = JSON.stringify({
 });
 
 const DESCRIPTION =
-  "CTO & Co-Founder of 90/10, Berlin. Turning construction tenders into draft offers so trade businesses can get back to building.";
+  "CTO & Co-Founder of 90/10, Berlin. Building the interface for AI in construction, starting with how projects are won.";
 
 const RootDocument = () => (
   <html className="dark" lang="en">
