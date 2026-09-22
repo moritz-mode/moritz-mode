@@ -71,7 +71,26 @@ export const Route = createRootRouteWithContext<RouterAppContext>()({
       { property: "og:type", content: "website" },
       { property: "og:image", content: IMAGE_URL },
     ],
-    links: [{ rel: "stylesheet", href: appCss }],
+    links: [
+      { rel: "stylesheet", href: appCss },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/favicon-32.png",
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "128x128",
+        href: "/favicon.png",
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/apple-touch-icon.png",
+      },
+    ],
     scripts: [{ type: "application/ld+json", children: PERSON_JSON_LD }],
   }),
   component: RootDocument,
