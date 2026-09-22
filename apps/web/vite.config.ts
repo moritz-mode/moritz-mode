@@ -5,6 +5,9 @@ import viteReact from "@vitejs/plugin-react";
 import { defineConfig } from "vite-plus";
 
 export default defineConfig({
+  optimizeDeps: {
+    include: ["motion/react"],
+  },
   plugins: [
     cloudflare({ viteEnvironment: { name: "ssr" } }),
     tailwindcss(),
@@ -12,6 +15,7 @@ export default defineConfig({
     viteReact(),
   ],
   resolve: {
+    dedupe: ["react", "react-dom"],
     tsconfigPaths: true,
   },
   server: {

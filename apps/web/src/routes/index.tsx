@@ -4,7 +4,8 @@ import type { ReactNode } from "react";
 
 import { BrandIcon } from "../brand-icons";
 import type { IconName } from "../brand-icons";
-import { SwappingName, useNameSwap } from "../name-swap";
+import { SwappingName } from "../power-name/swapping-name";
+import { useNameSwap } from "../power-name/use-name-swap";
 
 const BERLIN_TIME = new Intl.DateTimeFormat("en-GB", {
   hour: "2-digit",
@@ -39,7 +40,7 @@ const InlineLink = ({
   children: ReactNode;
 }) => (
   <a
-    className="border-muted-foreground/60 hover:border-foreground border-b pb-px whitespace-nowrap transition-colors"
+    className="border-muted-foreground/60 hover:border-foreground hover:text-foreground cursor-pointer border-b pb-px whitespace-nowrap transition-colors"
     href={href}
     rel="noreferrer"
     target="_blank"
@@ -63,9 +64,12 @@ const BerlinClock = () => {
 const HomeComponent = () => {
   const { swapped, hoverProps } = useNameSwap();
   return (
-    <main className="flex min-h-svh items-center justify-center px-6 py-16">
+    <main className="flex min-h-svh items-center justify-center overflow-x-clip px-6 py-16">
       <article className="w-full max-w-md space-y-8">
-        <header className="flex items-center gap-4" {...hoverProps}>
+        <header
+          className="flex cursor-crosshair items-center gap-4 select-none"
+          {...hoverProps}
+        >
           <img
             alt="Moritz Mauruschat"
             className="size-16 shrink-0 rounded-xl object-cover"
